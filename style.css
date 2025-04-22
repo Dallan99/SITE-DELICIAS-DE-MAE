@@ -1,0 +1,124 @@
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    background: #fdf5e6;
+    color: #3e2c1c;
+}
+
+header {
+    background: #f2e4d3;
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 200px;
+}
+
+.slogan {
+    font-family: 'Amatic SC', cursive;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #8b0000;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #8b0000;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #2c0101;
+}
+
+.banner {
+    background: url('imagens/teste.jpeg') center/cover no-repeat;
+    text-align: center;
+    padding: 15px 100px;
+    color: #fff8f0;
+    background-color: #8b0000;
+}
+
+.banner h1 {
+    font-size: 2em;
+}
+
+.btn {
+    padding: 10px 20px;
+    background: #fff;
+    color: #8b0000;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 50px;
+}
+
+section {
+    padding: 20px 20px;
+    transition: padding 0.3s ease;
+}
+
+.produto {
+    text-align: center;
+    display: inline-block;
+    margin: 20px;
+}
+
+.produto img {
+    width: 200px;
+    border-radius: 50px;
+}
+
+.produto a {
+    text-decoration: none;
+    color: #8b0000; /* Mesma cor dos links do menu */
+    font-weight: bold;
+}
+
+.produto a:hover {
+    color: #2c0101; /* Branco no hover, como os links do menu */
+}
+
+#receitas {
+    background-color: #fff8f0;
+    padding: 20px 10px;
+    border-top: 2px solid #e6d6c4;
+}
+s
+#receitas h2 {
+    color: #8b0000;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.receita {
+    background: #fff;
+    border: 10px solid #e0c9b9;
+    border-radius: 50px;
+    padding: 5px;
+    margin: 20px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.receita h3 {
+    color: #3e2c1c;
+    margin-bottom: 5px;
+}
+
+footer {
+    background: #f2e4d3;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9em;
+}
